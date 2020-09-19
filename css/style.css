@@ -117,28 +117,11 @@ header nav .nav-menu li a {
     font-weight: 500;
     color: #ffffff;
 }
-#sale {
-    background: url("../images/sale-bg.png")no-repeat center;
-    padding: 33px 0;
-}
-#sale .sale-box .img {
-    border-radius: 50%;
-    background:#05323d;
-    width: 176px;
-    height: 176px;
-    margin-right: 50px;
-}
-#sale .sale-box .info h2,
-#sale .sale-box .info p {
-    font-size: 38px;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-#sale .sale-box .info h2 {
-    font-weight: 700;
-}
-#sale .sale-box .info p {
-    font-weight: 300;
+header .header-box .address,
+header .header-box .basket,
+header .header-box .contacts,
+header .header-box .call {
+    margin-top: 9px;
 }
 .button{
      display: flex;
@@ -241,6 +224,29 @@ header nav .nav-menu li a {
 }
 #home .second-screen p span {
     font-weight: 700;
+}
+#sale {
+    background: url("../images/sale-bg.png")no-repeat center;
+    padding: 33px 0;
+}
+#sale .sale-box .img {
+    border-radius: 50%;
+    background:#05323d;
+    width: 176px;
+    height: 176px;
+    margin-right: 50px;
+}
+#sale .sale-box .info h2,
+#sale .sale-box .info p {
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#sale .sale-box .info h2 {
+    font-weight: 700;
+}
+#sale .sale-box .info p {
+    font-weight: 300;
 }
 #sale .sale-box .btn-box {
     margin-left: auto;
